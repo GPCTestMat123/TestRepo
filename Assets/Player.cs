@@ -15,4 +15,9 @@ public class Player : MonoBehaviour
     {
         
     }
+
+    void Move()
+    {
+        transform.position += Vector3.right;
+    }
 }
